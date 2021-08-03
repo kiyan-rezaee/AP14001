@@ -1,6 +1,3 @@
-// Authors:
-// Ali Dadashzadeh & Kiyan Rezaee
-// Summer 2021
 
 isPersian = true;
 function translateToPersian() {
@@ -55,7 +52,7 @@ function translateToPersian() {
         a.style.direction = "rtl"
         a.innerHTML = `
         امروزه، برنامه نویسی کامپیوتری به یکی از مهارتهای مورد نیاز در بسیاری از علوم تبدیل شده است. در این درس، با مفاهیم پیشرفته برنامه نویسی آشنا خواهیم شد. برنامه نویسی شیء گرا، ساختمان داده ها و طراحی و تحلیل الگوریتمهای کاربردی، از جمله مهمترین این مفاهیم هستند. اگرچه، تمامی این مفاهیم مستقل از یک زبان برنامه نویسی خاص قابل طرح می باشند، در این درس از زبان محبوب <a class="link" href="https://www.python.org/" target="_blank">پایتون</a> به عنوان ابزاری جهت پیاده سازی مفاهیم مورد نظر استفاده خواهیم کرد. دلیل این انتخاب، سادگی، محبوبیت و متن باز بودن این زبان برنامه نویسی است. در این درس، تمرکز ویژه ای بر فعالیت های عملی و گروهی خواهد بود. در طول یک ترم، دانشجویان با نحوه کدنویسی شیء گرا آشنا شده و این مفهوم را در قالب یک پروژه گروهی پایانی پیاده سازی خواهند کرد. در پایان این واحد درسی از دانشجویان محترم انتظار می رود تا بتوانند برای پروژه های بزرگ کلاس های مختلف را طراحی کرده، از ساختمان داده های مناسب برای آنها بهره برده و واسط های گرافیکی کارآمد طراحی کنند. جهت دریافت اطلاعات تکمیلی، به صفحه <a class="link"
-        href="https://mehrshaad.github.io/testsite/syllabus.html">رئوس مطالب</a> مراجعه نمائید.
+        href="./syllabus.html">رئوس مطالب</a> مراجعه نمائید.
         `
         var a = document.getElementById('4')
         a.classList.add('persian')
@@ -90,6 +87,16 @@ function translateToPersian() {
 
     //syllabus - per
     try {
+
+        var a = document.getElementById('ref1')
+        a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('ref2')
+        a.innerText = ' چگونه مانند یک دانشمند کامپیوتر فکر کنیم'
+        a.style.fontFamily = 'IranYekan'
+
+
         var a = document.getElementById('12')
         a.innerText = 'رئوس مطالب'
 
@@ -467,7 +474,7 @@ function translateToEnglish() {
       design a graphical user
       interface for your project.
       For more information visit the <a class="link"
-        href="https://mehrshaad.github.io/testsite/syllabus.html">Syllabus</a> page.`
+        href="./syllabus.html">Syllabus</a> page.`
 
         var a = document.getElementById('4')
         a.classList.remove('persian')
@@ -505,6 +512,15 @@ function translateToEnglish() {
 
     //syllabus - en
     try {
+
+        var a = document.getElementById('ref1')
+        a.innerText = 'Python-Programming-Introduction-Computer-Science'
+        a.classList.remove('persian')
+
+        var a = document.getElementById('ref2')
+        a.innerText = 'How-Think-Like-Computer-Scientist'
+        a.classList.remove('persian')
+
         var a = document.getElementById('12')
         a.innerText = `Syllabus`
 
