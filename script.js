@@ -854,6 +854,9 @@ function updateCSS() {
         $('body').css({
             'background-image': 'linear-gradient(to right bottom, #9fa2a7, #979ea1, #909999, #8b9491, #898e88, #85887f, #818176, #7f7a6e, #787262, #716957, #6a614b, #635940)'
         })
+        $('*').css({
+            'animation-time': '0s'
+        })
     }
     else {
         $('html').css({
